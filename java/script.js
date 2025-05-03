@@ -3,7 +3,7 @@
 const contenedor = document.getElementById("divJson");
 let info = "";
 let error = "Error en la carga de datos";
-fetch('../data/noticias.json')
+fetch('https://galguito.github.io/JS_trabajoFinal/data/noticias.json')
     .then(response => response.json())
     .then(datos =>{
         
