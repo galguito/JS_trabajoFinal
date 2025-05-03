@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="icon" href="../favicon.avif">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header-presupuesto">
+        <nav>
+            <div class="ul-views">
+                <img src="../assets/images/logotipo.webp" height="500" width="500" alt="imagen palmeras y playa" class="logotipo-views">
+                <a href="../index.html">Inicio</a>
+                <a href="../views/galeria.html">Galeria</a>
+                <a href="#" class="index">Presupuesto</a>
+                <a href="../views/contacto.html">Contacto</a>
+            </div> 
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-presupuesto">
+            <h1 class="h1-presupuesto">Formulario de Solicitud</h1>
+
+            <form id="formulario" name="formulario">
+                <fieldset class="datos">
+                    <legend>Datos</legend>
+
+                    <div class="div-datos">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" class="datos-input">
+                        
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" class="datos-input">
+                    
+                        <label for="telefono">Telefono de Contacto:</label>
+                        <input type="tel" id="telefono" class="datos-input">
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" class="datos-input">
+                    </div>
+                </fieldset>
+
+                <fieldset class="datos">
+                    <legend>Presupuesto</legend>
+                    
+                    <div class="div-datos">
+                        <label for="destino">Elige un Destino:</label>
+                        <select name="destino" id="destino" class="datos-input">
+                            <option value="">Elige un Destino</option>
+                            <option value="Barcelona: 1500">Barcelona -1500€-</option>
+                            <option value="Madrid: 1700">Madrid -1700€-</option>
+                            <option value="Valencia: 1400">Valencia -1400€-</option>
+                            <option value="Roma: 1500">Roma -1500€-</option>
+                        </select>
+
+                        <label for="numero">Plazo en meses: (descuento del 5, 10, o 15 %)</label>
+                        <input type="number" id="numero" max="3" min="0" class="datos-input">
+                    </div>
+
+                    <p class="op-extras">Opciones extras:</p>
+
+                    <div class="div-checkbox">
+                        <input type="checkbox" id="transporte" class="checkboxExtra" value="Puerta a puerta: 300">
+                        <label for="transporte">Transporte puerta a puerta (300€)</label>
+
+                        <input type="checkbox" id="cena" class="checkboxExtra" value="Cena: 100">
+                        <label for="cena">Cena (100€)</label>
+
+                        <input type="checkbox" id="excursiones" class="checkboxExtra" value="Excursiones: 400">
+                        <label for="excursiones">Excursiones (400€)</label>
+
+                        <input type="checkbox" id="deportes" class="checkboxExtra" value="Equipos deportivos: 200">
+                        <label for="deportes">Equipos deportivos (200€)</label>
+                    </div>    
+
+                    <div>
+                        <p class="op-extras">Paquete seleccionado:</p>
+                        
+                        <div class="paquete" id="div-paquete">
+
+                        </div>
+                    </div>
+
+                    <div class="div-presupuesto">
+                        <label for="presupuesto-total" class="label-presupuesto">Presupuesto Total:</label>
+                        <input type="text" id="presupuesto-total" class="input-presupuesto">
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="datos">
+                    <legend>Aceptacion de Condiciones y Envio de Presupuesto</legend>
+
+                        <div class="div-condiciones">
+                            <label for="condiciones">He leido las condiciones de privacidad</label>
+                            <input type="checkbox" id="condiciones">
+                        </div>
+                        <div class="div-botones">
+                            <button type="submit" class="boton" id="enviar">Enviar Formulario</button>
+                            <button type="reset" class="boton" id="borrar">Borrar Formulario</button>
+                        </div>
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo-box">
+            <a href="https://www.instagram.com/"><img src="../assets/images/Instagram-logo.png" alt="logo Instagram" height="2048" width="2048" class="logos"></a>
+            <a href="https://es-la.facebook.com/login/device-based/regular/login/"><img src="../assets/images/logo-facebook.png" alt="logo Facebook" height="600" width="600" class="logos"></a>
+            <a href="https://www.youtube.com/"><img src="../assets/images/logo-youtube.png" alt="logo Youtube" height="200" width="200" class="logos"></a>
+        </div>
+
+        <p>Todos los derechos reservados &#169; <br>
+        Travel Paradise 2021. Balcarce 1435, Rosario, Provincia de Santa Fe, Argentina <br>
+            galguito@gmail.com. 0341-155-996600. <br>
+            Aviso legal: derechos de privacidad, terminos y condiciones</p>
+    </footer>
+
+
+<script src="../java/script-formulario.js"></script>
+</body>
+</html>

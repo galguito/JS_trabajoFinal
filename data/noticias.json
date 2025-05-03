@@ -1,0 +1,53 @@
+{
+    "destinos": 
+        [
+            {
+                "nombre": "Barcelona",
+                "pais": "España",
+                "turismo": 
+                    {
+                        "atracciones":[ 
+                            "La Sagrada Familia",
+                            "Park Guell",
+                            "Las Ramblas",
+                            "Barceloneta Beach"]
+                    }
+            },
+            {
+                "nombre": "Valencia",
+                "pais": "España",
+                "turismo": 
+                    {
+                        "atracciones":[ 
+                            "Ciudad de las Artes y las Ciencias",
+                            "Mercado Central",
+                            "La Malvarrosa Beach",
+                            "Catedral de Valencia"]
+                    }
+            },
+            {
+                "nombre": "Roma",
+                "pais": "Italia",
+                "turismo": 
+                    {
+                        "atracciones":[ 
+                            "Coliseo",
+                            "Foro Romano",
+                            "Fontana di Travi",
+                            "Ciudad del Vaticano"]
+                    }
+            },
+            {
+                "nombre": "Napoles",
+                "pais": "Italia",
+                "turismo": 
+                    {
+                        "atracciones":[ 
+                            "Pompeya",
+                            "Vesubio",
+                            "Centro Storico",
+                            ""]
+                    }
+            }
+        ]
+}
